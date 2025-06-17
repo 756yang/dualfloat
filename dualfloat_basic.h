@@ -8,7 +8,9 @@
  */
 
 /* __FMA__宏,适用于x86-CPU启用融合乘加指令 */
+#ifndef __FMA__
 #define __FMA__
+#endif
 
 /*
  * FP_FMA_INTRINS值1则使用FMA指令(x86)非x86平台则尝试math库的fma函数,

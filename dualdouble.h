@@ -141,7 +141,7 @@ inline dualdouble fdf2sub(dualdouble a, dualdouble b) {
   return ret;
 }
 
-/* dualfloat加法 */
+/* dualdouble加法 */
 inline dualdouble df2add(dualdouble a, dualdouble b) {
   dualdouble ret, tmp;
   double r0, r1, r2, r3;
@@ -163,7 +163,7 @@ inline dualdouble df2add(dualdouble a, dualdouble b) {
   return ret;
 }
 
-/* dualfloat减法 */
+/* dualdouble减法 */
 inline dualdouble df2sub(dualdouble a, dualdouble b) {
   dualdouble ret, tmp;
   double r0, r1, r2, r3;
